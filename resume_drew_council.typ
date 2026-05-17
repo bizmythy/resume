@@ -31,10 +31,10 @@
   location: "New York, NY",
   dates: dates-helper(start-date: "Nov 2024", end-date: "Present"),
 )
-- #prefix[Developed high-performance assembly sequencing and path planning algorithms] using custom OpenCL kernels, reducing computation time by 10,000x.
-- #prefix[Led the technical implementation of a full in-browser 3D CAD viewer], bridging complex spatial backend data with interactive frontend visualization.
-- #prefix[Managed application-wide database migrations], meticulously executing data transitions and reducing post-migration data error rates by 80%.
-- #prefix[Established the company’s observability stack], halving response times for production issues through comprehensive monitoring and logging systems.
+- #prefix[Led implementation of a Rust-based in-browser 3D CAD viewer] that transforms complex spatial backend data into responsive, interactive visualizations for manufacturing operations.
+- #prefix[Built GPU-accelerated assembly sequencing and path-planning algorithms] with custom OpenCL kernels, accelerating core automation workflows by over 10,000x and saving over \$100,000 annually.
+- #prefix[Owned application-wide database migrations] across production Go microservices, designing validation and rollback paths that reduced post-migration data error rates by 80%.
+- #prefix[Established an LGTM observability stack] with structured logging, metrics, and alerting across Go, Python, and C++ services, cutting production incident response times in half.
 - #prefix[Engineered scalable backend services] to support the platform's core automated work instructions engine.
 
 #work(
