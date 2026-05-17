@@ -13,6 +13,7 @@
     yamlfmt.enable = true;
     toml-sort.enable = true;
     dos2unix.enable = true;
+    typstyle.enable = true;
     keep-sorted.enable = true;
     # buggy as of right now
     # nufmt.enable = true;
