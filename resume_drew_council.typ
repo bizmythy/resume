@@ -9,6 +9,9 @@
 
 #let prefix(body) = text(weight: "regular", stroke: 0.20pt, body)
 
+#let section-gap = 0.45em
+#let spaced-section(body) = [#v(section-gap)#body]
+
 #show: resume.with(
   author: name,
   location: location,
@@ -23,7 +26,9 @@
   personal-info-position: left,
 )
 
+#spaced-section[
 == Experience
+]
 
 #work(
   title: "Senior Software Engineer",
@@ -59,7 +64,9 @@
 - #prefix[Implemented PID, Sensor Fusion, Computer Vision, and SMACH] to improve robot accuracy and capability.
 - Earned 1st in Propulsion System, 3rd in Sensor optimization in 2021; 1st in technical report in 2021 and 2022.
 
+#spaced-section[
 == Projects
+]
 
 #project(
   name: "Cell Robots Research",
@@ -92,7 +99,9 @@
 )
 - Used a Raspberry Pi and Python to analyze and error correct PIR sensor data and detect a person's presence.
 - Communicated this sensor data over a custom web API to publish room status and use statistics to a website.
+#spaced-section[
 == Education
+]
 
 #edu(
   institution: "Duke University",
@@ -103,7 +112,9 @@
 )
 - Completed classes in Data Structures/Algorithms, Computer Architecture, Networking, and Robotics.
 
+#spaced-section[
 == Skills
+]
 
-Go, Python, Rust, C, C++, TypeScript, OpenCL, SQL, DuckDB, Linux, NixOS, Docker, Git, Bash, Arduino, Verilog, Nushell, AWS
+Go, Python, Rust, C, C++, TypeScript, OpenCL, Nushell, DuckDB, PostgreSQL, Linux, NixOS, Docker, Git, Bash, Grafana, AWS
 
