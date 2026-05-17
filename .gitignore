@@ -1,5 +1,2 @@
-*
-!.gitignore
-!*.tex
-!*.cls
-!*.pdf
+# direnv
+.direnv
