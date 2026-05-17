@@ -7,6 +7,8 @@
 #let location = "NYC"
 #let personal-site = "drewcouncil.com"
 
+#let prefix(body) = text(weight: "regular", stroke: 0.20pt, body)
+
 #show: resume.with(
   author: name,
   location: location,
@@ -29,11 +31,11 @@
   location: "New York, NY",
   dates: dates-helper(start-date: "Nov 2024", end-date: "Present"),
 )
-- *Developed high-performance assembly sequencing and path planning algorithms* using custom OpenCL kernels, reducing computation time by 10,000x.
-- *Led the technical implementation of a full in-browser 3D CAD viewer*, bridging complex spatial backend data with interactive frontend visualization.
-- *Managed application-wide database migrations*, meticulously executing data transitions and reducing post-migration data error rates by 80%.
-- *Established the company’s observability stack*, halving response times for production issues through comprehensive monitoring and logging systems.
-- *Engineered scalable backend services* to support the platform's core automated work instructions engine.
+- #prefix[Developed high-performance assembly sequencing and path planning algorithms] using custom OpenCL kernels, reducing computation time by 10,000x.
+- #prefix[Led the technical implementation of a full in-browser 3D CAD viewer], bridging complex spatial backend data with interactive frontend visualization.
+- #prefix[Managed application-wide database migrations], meticulously executing data transitions and reducing post-migration data error rates by 80%.
+- #prefix[Established the company’s observability stack], halving response times for production issues through comprehensive monitoring and logging systems.
+- #prefix[Engineered scalable backend services] to support the platform's core automated work instructions engine.
 
 #work(
   title: "Software Engineer",
@@ -41,10 +43,10 @@
   location: "Durham, NC",
   dates: dates-helper(start-date: "Jan 2022", end-date: "May 2024"),
 )
-- *Worked with others on an agile team* to develop software for robotic construction of houses.
-- *Headed company DevOps*, including managing CI/CD, developer tools, and embedded software deployment.
-- *Designed embedded hardware* for a ROS2 network, providing services for actuator and sensor control.
-- *Integrated AWS hosting* for automated Docker image builds with custom logging and error reporting.
+- #prefix[Worked with others on an agile team] to develop software for robotic construction of houses.
+- #prefix[Headed company DevOps], including managing CI/CD, developer tools, and embedded software deployment.
+- #prefix[Designed embedded hardware] for a ROS2 network, providing services for actuator and sensor control.
+- #prefix[Integrated AWS hosting] for automated Docker image builds with custom logging and error reporting.
 
 #work(
   title: "Software Subteam Lead",
@@ -52,9 +54,9 @@
   location: "Durham, NC",
   dates: dates-helper(start-date: "Jun 2020", end-date: "Jun 2022"),
 )
-- *Competed in annual #link("https://robonation.org/programs/robosub/")[RoboSub robot competition]*, where we designed a fully autonomous submarine robot.
-- *Coordinated a 25+ member agile environment team* using ROS, Docker, and Git to manage a shared codebase.
-- *Implemented PID, Sensor Fusion, Computer Vision, and SMACH* to improve robot accuracy and capability.
+- #prefix[Competed in annual #link("https://robonation.org/programs/robosub/")[RoboSub robot competition]], where we designed a fully autonomous submarine robot.
+- #prefix[Coordinated a 25+ member agile environment team] using ROS, Docker, and Git to manage a shared codebase.
+- #prefix[Implemented PID, Sensor Fusion, Computer Vision, and SMACH] to improve robot accuracy and capability.
 - Earned 1st in Propulsion System, 3rd in Sensor optimization in 2021; 1st in technical report in 2021 and 2022.
 
 == Projects
