@@ -4,7 +4,6 @@
 #let email = "andrew.p.council@gmail.com"
 #let github = "github.com/AndrewCouncil"
 #let linkedin = "linkedin.com/in/drew-council"
-#let phone = "770-833-1759"
 #let location = "NYC"
 #let personal-site = "drewcouncil.com"
 
@@ -14,7 +13,6 @@
   email: email,
   github: github,
   linkedin: linkedin,
-  phone: phone,
   personal-site: personal-site,
   accent-color: "#7b2cbf",
   font: "IBM Plex Sans",
@@ -23,35 +21,30 @@
   personal-info-position: left,
 )
 
-== Education
-
-#edu(
-  institution: "Duke University",
-  location: "Durham, NC",
-  dates: "Graduating 2024",
-  degree: "Bachelor of Computer Science, Electrical & Computer Engineering",
-  gpa: "3.8",
-)
-- Completed classes in Data Structures/Algorithms, Computer Architecture, Networking, and Robotics.
-
-== Skills
-
-Python, C, Linux, ROS, ROS2, Docker, Git, Bash, Arduino, Verilog, Raspberry Pi, KiCad, AWS, C++, Java, Rust
-
 == Experience
+
+#work(
+  title: "Senior Software Engineer",
+  company: "Dirac, Inc.",
+  location: "New York, NY",
+  dates: dates-helper(start-date: "Nov 2024", end-date: "Present"),
+)
+- *Developed high-performance assembly sequencing and path planning algorithms* using custom OpenCL kernels, reducing computation time by 10,000x.
+- *Led the technical implementation of a full in-browser 3D CAD viewer*, bridging complex spatial backend data with interactive frontend visualization.
+- *Managed application-wide database migrations*, meticulously executing data transitions and reducing post-migration data error rates by 80%.
+- *Established the company’s observability stack*, halving response times for production issues through comprehensive monitoring and logging systems.
+- *Engineered scalable backend services* to support the platform's core automated work instructions engine.
 
 #work(
   title: "Software Engineer",
   company: "BotBuilt Robotics",
   location: "Durham, NC",
-  dates: dates-helper(start-date: "Jan 2022", end-date: "Present"),
+  dates: dates-helper(start-date: "Jan 2022", end-date: "May 2024"),
 )
-- Worked with others on an agile team to develop software for robotic construction of houses.
-- Headed company DevOps, including managing CI/CD, developer tools, and embedded software deployment.
-- Designed embedded hardware for a ROS2 network, providing services for actuator and sensor control.
-- Containerized ROS2 applications into Docker images for several platforms and hardware configurations.
-- Spearheaded CI for testing and development including automatic Docker container testing on pull requests.
-- Integrated AWS hosting for automated Docker image builds with custom logging and error reporting.
+- *Worked with others on an agile team* to develop software for robotic construction of houses.
+- *Headed company DevOps*, including managing CI/CD, developer tools, and embedded software deployment.
+- *Designed embedded hardware* for a ROS2 network, providing services for actuator and sensor control.
+- *Integrated AWS hosting* for automated Docker image builds with custom logging and error reporting.
 
 #work(
   title: "Software Subteam Lead",
@@ -59,19 +52,10 @@ Python, C, Linux, ROS, ROS2, Docker, Git, Bash, Arduino, Verilog, Raspberry Pi, 
   location: "Durham, NC",
   dates: dates-helper(start-date: "Jun 2020", end-date: "Jun 2022"),
 )
-- Competed in annual #link("https://robonation.org/programs/robosub/")[RoboSub robot competition], where we designed a fully autonomous submarine robot to complete a variety of complex maneuvering and manipulation tasks in an unfamiliar underwater environment.
-- Coordinated a 25+ member agile environment team using ROS, Docker, and Git to manage a shared codebase.
-- Implemented PID, Sensor Fusion, Computer Vision, and SMACH to improve robot accuracy and capability.
+- *Competed in annual #link("https://robonation.org/programs/robosub/")[RoboSub robot competition]*, where we designed a fully autonomous submarine robot.
+- *Coordinated a 25+ member agile environment team* using ROS, Docker, and Git to manage a shared codebase.
+- *Implemented PID, Sensor Fusion, Computer Vision, and SMACH* to improve robot accuracy and capability.
 - Earned 1st in Propulsion System, 3rd in Sensor optimization in 2021; 1st in technical report in 2021 and 2022.
-
-#work(
-  title: "Teaching Assistant",
-  company: "Duke First Year Engineering Design",
-  location: "Durham, NC",
-  dates: dates-helper(start-date: "Aug 2021", end-date: "Dec 2021"),
-)
-- Guided small groups of students in project management throughout a semester-long design challenge.
-- Provided technical expertise in actuators, programming embedded systems, sensors, and PCB design.
 
 == Projects
 
@@ -106,3 +90,18 @@ Python, C, Linux, ROS, ROS2, Docker, Git, Bash, Arduino, Verilog, Raspberry Pi, 
 )
 - Used a Raspberry Pi and Python to analyze and error correct PIR sensor data and detect a person's presence.
 - Communicated this sensor data over a custom web API to publish room status and use statistics to a website.
+== Education
+
+#edu(
+  institution: "Duke University",
+  location: "Durham, NC",
+  dates: dates-helper(start-date: "Sep 2020", end-date: "May 2024"),
+  degree: "Bachelor of Computer Science, Electrical & Computer Engineering",
+  gpa: "3.8",
+)
+- Completed classes in Data Structures/Algorithms, Computer Architecture, Networking, and Robotics.
+
+== Skills
+
+Go, Python, Rust, C, C++, TypeScript, OpenCL, SQL, DuckDB, Linux, NixOS, Docker, Git, Bash, Arduino, Verilog, Nushell, AWS
+
