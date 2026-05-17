@@ -109,6 +109,7 @@
   dates: dates-helper(start-date: "Sep 2020", end-date: "May 2024"),
   degree: "Bachelor of Computer Science, Electrical & Computer Engineering",
   gpa: "3.8",
+  consistent: true,
 )
 - Completed classes in Data Structures/Algorithms, Computer Architecture, Networking, and Robotics.
 
