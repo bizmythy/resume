@@ -25,6 +25,7 @@
             (aspellWithDicts (ps: with ps; [ en ]))
             # keep-sorted start
             nushell
+            typst
             # keep-sorted end
           ];
         };
